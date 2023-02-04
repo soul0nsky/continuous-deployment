@@ -21,10 +21,10 @@
 3. Скопировать в новый репозиторий папку `env`
 4. Настроить новый репозиторий. Указать в нём использование GitHub Action для публикации приложения, вместо публикации из ветки (gh-pages)
    ![alt text](./github-setup.png)
-5. В файле `REAME.md` в строке:
+5. В файле `README.md` в строке:
 
 ```md
-![CI](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/soul0nsky/continuous-deployment/actions/workflows/web.yml/badge.svg)
 ```
 
 Заменить `<OWNER>` на ваш ник на github;
